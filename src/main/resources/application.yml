@@ -1,9 +1,9 @@
 spring: 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://172.31.33.1:3306/gowdas123?useSSL=false  # Updated the host to the instance's private IP
-    username: gowdru        # No change needed here as the username remains the same
-    password: 123456Root@   # Update if you've changed the password
+    url: jdbc:mysql://ip-172-31-33-1:3306/gowdas123?useSSL=false&allowPublicKeyRetrieval=true
+    username: gowdru
+    password: 123456Root@
     hikari:
       initialization-fail-timeout: 0
   jpa:
