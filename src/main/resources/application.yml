@@ -1,8 +1,8 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://13.200.252.231:3306/gowdas?useSSL=false
-    username: gowdas         # No change needed here as the username remains the same
+    url: jdbc:mysql://mysql/gowdas123?useSSL=false
+    username: gowdru        # No change needed here as the username remains the same
     password: 123456Root@         # Update if you've changed the password
     hikari:
       initialization-fail-timeout: 0
